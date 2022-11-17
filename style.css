@@ -1,0 +1,66 @@
+.ChessFon {
+  width: 625px;
+  height: 625px;
+  background-color: #4E291C;
+  position: relative;
+  margin: 200px auto;
+}
+.ChessFon .chess {
+  width: 560px;
+  height: 560px;
+  border: 5px solid #F8DFB8;
+  position: absolute;
+  left: 30px;
+  top: 30px;
+}
+.ChessFon .onlyNumbers {
+  position: absolute;
+  z-index: 10;
+  list-style-type: none;
+  top: 35px;
+  left: -30px;
+  color: rgb(226, 216, 216);
+}
+.ChessFon .onlyNumbers li {
+  width: 20px;
+  height: 70px;
+  font-size: 20px;
+}
+.ChessFon .onlyString {
+  display: flex;
+  justify-content: space-around;
+  width: 560px;
+  list-style-type: none;
+  color: rgb(231, 227, 227);
+}
+.ChessFon .onlyString li {
+  width: 70px;
+  height: 20px;
+  font-size: 20px;
+  margin-top: 600px;
+  text-align: center;
+}
+
+.chessImg {
+  width: 600px;
+  margin-top: -50px;
+  background: 1;
+  z-index: 40;
+}
+.chessImg img {
+  width: 100%;
+}
+
+.block {
+  width: 70px;
+  height: 70px;
+  float: left;
+}
+
+.yellow {
+  background: #FFB77D;
+}
+
+.brown {
+  background: brown;
+}/*# sourceMappingURL=style.css.map */
